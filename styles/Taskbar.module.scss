@@ -1,0 +1,79 @@
+@import './utils/themes';
+
+.footer.dark {
+  background-color: $gray-90-op;
+
+  .startIcon {
+    fill: $gray-5;
+
+    &.open {
+      fill: $red-50;
+    }
+
+    &:hover {
+      fill: $red-50;
+    }
+  }
+
+  .jmIcon {
+    border-top: 2px solid $red-50;
+  }
+
+  .date {
+    color: $gray-5;
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: $gray-20-op;
+  backdrop-filter: blur(8px);
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+
+  .leftIcons {
+    display: flex;
+    gap: 3px;
+  }
+
+  .startIcon {
+    width: 3rem;
+    padding: 3px;
+    fill: $gray-80;
+
+    &.open {
+      fill: $blue-50;
+    }
+
+    &:hover {
+      fill: $blue-50;
+    }
+
+  }
+
+  .jmIcon {
+    width: 2rem;
+    padding: 3px;
+    border-top: 2px solid $blue-50;
+
+    &:hover {
+      background-color: rgba($gray-40, .3);
+    }
+  }
+
+  .date {
+    cursor: default;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    font-size: 0.8rem;
+    text-align: center;
+
+    &:hover {
+      background-color: rgba($gray-40, .3);
+    }
+  }
+}

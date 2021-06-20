@@ -1,0 +1,49 @@
+@import './utils/themes';
+
+.tasks.dark {
+  background-color: $gray-90-op;
+  color: $gray-5;
+}
+
+.tasks {
+  position: fixed;
+  bottom: 2rem;
+  background-color: $gray-30-op;
+  color: $gray-90;
+  backdrop-filter: blur(8px);
+
+
+  .jmIcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    gap: 1rem;
+
+    &:hover {
+      background-color: rgba($gray-50, .3);
+    }
+
+    img {
+      width: 1.8rem;
+    }
+  }
+
+  .closeIcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+
+    &:hover {
+      background-color: rgba($gray-50, .3);
+    }
+
+    span {
+      background-color: $red-50;
+      border-radius: 50%;
+      padding: 3px;
+      height: 1.4rem;
+    }
+  }
+}

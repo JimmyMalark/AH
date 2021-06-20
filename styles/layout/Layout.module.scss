@@ -1,0 +1,36 @@
+@import '../utils/themes';
+
+.layout.dark {
+  .wallpaper {
+    background-image: linear-gradient(to right, $yellow-50, $red-50);
+  }
+}
+
+.layout {
+  position: fixed;
+  overflow: hidden;
+
+  .wallpaper {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, $green-40, $blue-50);
+  }
+
+  .jmFileIco {
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    border-radius: 5px;
+    cursor: default;
+    padding: .5rem;
+    text-align: center;
+
+    &:hover {
+      background-color: rgba($gray-40, .2);
+    }
+
+    .jmFileImg {
+      width: 3rem
+    }
+  }
+}

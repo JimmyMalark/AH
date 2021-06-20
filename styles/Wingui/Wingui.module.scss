@@ -1,0 +1,122 @@
+@import "../utils/themes";
+
+.wingui.dark {
+  color: $gray-5;
+
+  .navbar {
+    background-color: $gray-80;
+  }
+
+  .iconMenu {
+    background-color: $gray-80-op;
+
+    .container {
+      div:hover {
+        background-color: rgba($gray-80, 0.8);
+      }
+    }
+  }
+}
+
+.wingui {
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow-y: auto;
+
+  // Navbar
+  .navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $gray-10;
+    overflow: hidden;
+  
+    div {
+      display: flex;
+      gap: 2px;
+      margin-left: 2px;
+  
+      span {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+
+        &.close {
+          background-color: $red-50;
+
+          &:hover {
+            background-color: $red-50-op;
+          }
+        }
+        &.maximize {
+          background-color: $yellow-40;
+
+          &:hover {
+            background-color: $yellow-40-op;
+          }
+        }
+        &.minimize {
+          background-color: $blue-50;
+
+          &:hover {
+            background-color: $blue-50-op;
+          }
+        }
+      }
+    }
+
+    img {
+      padding: 5px;
+      width: 2rem;
+
+      &:hover {
+        background-color: rgba($gray-50, 0.5);
+      }
+    }
+  } 
+
+  .iconMenu {
+    position: fixed;
+    top: 1.3rem;
+    right: 0;
+    background-color: $gray-10-op;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+  
+      div {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 3px 5px;
+
+        &:hover {
+          background-color: rgba($gray-20, 0.8);
+        }
+        
+        span {
+          width: 18px;
+          height: 18px;
+          border-radius: 50%;
+  
+          &.close {
+            background-color: $red-50;
+          }
+          &.maximize {
+            background-color: $yellow-40;
+          }
+          &.minimize {
+            background-color: $blue-50;
+          }
+        }
+      }
+    }
+  }
+}
