@@ -9,6 +9,12 @@
     box-shadow: 0 0 25px $red-50-op;
   }
 
+  .portPic {
+    border: 3px solid $red-50;
+    box-shadow: 0 0 25px $red-50-op;
+    background-image: linear-gradient(to right, $yellow-50, $red-50);
+  }
+
   .contact {
     a {
       color: $gray-5;
@@ -32,6 +38,16 @@
       background-color: rgba($gray-70, .3);
     }
   }
+
+  .footer div {
+    a {
+      color: $red-40;
+
+      &:hover {
+        color: $red-30;
+      }
+    }
+  }
 }
 
 .home {
@@ -50,6 +66,16 @@
     margin: 0 auto 1rem auto;
     border: 3px solid $blue-50;
     box-shadow: 0 0 25px $blue-50-op;
+  }
+
+  .portPic {
+    border-radius: 100%;
+    width: 9rem;
+    height: 9rem;
+    margin: 0 auto 1rem auto;
+    border: 3px solid $blue-50;
+    box-shadow: 0 0 25px $blue-50-op;
+    background-image: linear-gradient(to right, $green-40, $blue-50);
   }
 
   .contact {
@@ -131,7 +157,30 @@
       }
     }
   }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      a {
+        color: $blue-60;
+        text-decoration: none;
+
+        &:hover {
+          color: $blue-80;
+        }
+      }
+    }
+  }
 }
+
 
 @media (min-width: 600px) {
   .card{

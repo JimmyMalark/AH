@@ -1,5 +1,5 @@
 import { SiVisualstudiocode, SiGraphql, SiJavascript, SiNextDotJs, SiTailwindcss, SiTypescript, SiVueDotJs, SiVuetify, SiInstagram } from 'react-icons/si';
-import { DiGit, DiGithubBadge, DiNodejsSmall, DiReact, DiCss3, DiSass, DiAptana } from 'react-icons/di';
+import { DiGit, DiGithubBadge, DiNodejsSmall, DiReact, DiCss3, DiSass, DiAptana, DiDotnet } from 'react-icons/di';
 import { VscRegex } from 'react-icons/vsc';
 import { IoLogoPwa } from 'react-icons/io5';
 import styles from 'styles/home/Home.module.scss';
@@ -14,10 +14,13 @@ export default function Home({ theme }) {
       }
     >
 
-      <img
+      {/* <img
         src="/rdr2.png"
         draggable="false"
-      />
+      /> */}
+      <div className={styles.portPic}>
+
+      </div>
 
       <div
         className={styles.contact}
@@ -149,6 +152,10 @@ export default function Home({ theme }) {
             <DiAptana />
             <p>RestAPI</p>
           </li>
+          <li>
+            <DiDotnet />
+            <p>Asp.Net</p>
+          </li>
         </ul>
       </div>
 
@@ -174,6 +181,18 @@ export default function Home({ theme }) {
           </li>
         </ul>
       </div>
+
+      {/* Footer */}
+      <footer className={styles.footer}>
+        <div style={{marginBottom: "2rem"}}>
+          <h3>Call Me:</h3>
+          <h3><a href="tel:09304583701">09304583701</a></h3>
+        </div>
+        <div>
+          <h3>Email Me:</h3>
+          <h3><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZWPbzkpwthvsgBNMFzGkZMjdrcbJVHZPzKCjdvHgmLClMTpkjnScRtpgSJlnfjDzhCZVq" target="_blank">ahmousavigh01@gmail.com</a></h3>
+        </div>
+      </footer>
     </div>
   )
 }
