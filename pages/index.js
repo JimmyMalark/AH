@@ -1,4 +1,4 @@
-import { SiVisualstudiocode, SiGraphql, SiJavascript, SiNextDotJs, SiTailwindcss, SiTypescript, SiVueDotJs, SiVuetify, SiInstagram } from 'react-icons/si';
+import { SiVisualstudiocode, SiJavascript, SiNextDotJs, SiTailwindcss, SiTypescript, SiVueDotJs, SiVuetify, SiInstagram, SiDotNet , SiNuxtDotJs} from 'react-icons/si';
 import { DiGit, DiGithubBadge, DiNodejsSmall, DiReact, DiCss3, DiSass, DiAptana, DiDotnet } from 'react-icons/di';
 import { VscRegex } from 'react-icons/vsc';
 import { IoLogoPwa } from 'react-icons/io5';
@@ -118,6 +118,10 @@ export default function Home({ theme }) {
             <p>Javascript</p>
           </li>
           <li>
+            <SiTypescript />
+            <p>Typescript</p>
+          </li>
+          <li>
             <DiReact />
             <p>React</p>
           </li>
@@ -136,6 +140,14 @@ export default function Home({ theme }) {
           <li>
             <SiTailwindcss />
             <p>TailwindCSS</p>
+          </li>
+          <li>
+            <SiVueDotJs />
+            <p>Vue.js</p>
+          </li>
+          <li>
+            <SiVuetify />
+            <p>Vuetify</p>
           </li>
         </ul>
       </div>
@@ -164,12 +176,8 @@ export default function Home({ theme }) {
         <h3>Learning in progress</h3>
         <ul>
           <li>
-            <SiTypescript />
-            <p>Typescript</p>
-          </li>
-          <li>
-            <SiGraphql />
-            <p>GraphQl</p>
+            <SiDotNet />
+            <p>.Net</p>
           </li>
           <li>
             <IoLogoPwa />
@@ -178,6 +186,10 @@ export default function Home({ theme }) {
           <li>
             <VscRegex />
             <p>RegEx</p>
+          </li>
+          <li>
+            <SiNuxtDotJs />
+            <p>NustJS</p>
           </li>
         </ul>
       </div>
