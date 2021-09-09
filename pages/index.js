@@ -1,4 +1,4 @@
-import { SiVisualstudiocode, SiJavascript, SiNextDotJs, SiTailwindcss, SiTypescript, SiVueDotJs, SiVuetify, SiInstagram, SiDotNet , SiNuxtDotJs} from 'react-icons/si';
+import { SiVisualstudiocode, SiJavascript, SiNextDotJs, SiTailwindcss, SiTypescript, SiVueDotJs, SiVuetify, SiInstagram, SiNuxtDotJs, SiAngular} from 'react-icons/si';
 import { DiGit, DiGithubBadge, DiNodejsSmall, DiReact, DiCss3, DiSass, DiAptana, DiDotnet } from 'react-icons/di';
 import { VscRegex } from 'react-icons/vsc';
 import { IoLogoPwa } from 'react-icons/io5';
@@ -149,6 +149,10 @@ export default function Home({ theme }) {
             <SiVuetify />
             <p>Vuetify</p>
           </li>
+          <li>
+            <SiNuxtDotJs />
+            <p>NuxtJs</p>
+          </li>
         </ul>
       </div>
 
@@ -164,10 +168,6 @@ export default function Home({ theme }) {
             <DiAptana />
             <p>RestAPI</p>
           </li>
-          <li>
-            <DiDotnet />
-            <p>Asp.Net</p>
-          </li>
         </ul>
       </div>
 
@@ -175,10 +175,6 @@ export default function Home({ theme }) {
       <div className={styles.skillCard}>
         <h3>Learning in progress</h3>
         <ul>
-          <li>
-            <SiDotNet />
-            <p>.Net</p>
-          </li>
           <li>
             <IoLogoPwa />
             <p>PWA</p>
@@ -188,8 +184,8 @@ export default function Home({ theme }) {
             <p>RegEx</p>
           </li>
           <li>
-            <SiNuxtDotJs />
-            <p>NuxtJS</p>
+            <SiAngular />
+            <p>Angular</p>
           </li>
         </ul>
       </div>
