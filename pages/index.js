@@ -189,7 +189,7 @@ export default function Home({ theme }) {
           </li>
           <li>
             <SiNuxtDotJs />
-            <p>NustJS</p>
+            <p>NuxtJS</p>
           </li>
         </ul>
       </div>
