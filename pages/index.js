@@ -1,4 +1,4 @@
-import { SiVisualstudiocode, SiJavascript, SiNextDotJs, SiTailwindcss, SiTypescript, SiVueDotJs, SiVuetify, SiInstagram, SiNuxtDotJs, SiAngular} from 'react-icons/si';
+import { SiVisualstudiocode, SiJavascript, SiNextDotJs, SiTailwindcss, SiTypescript, SiVueDotJs, SiVuetify, SiInstagram, SiNuxtDotJs, SiAngular, SiMongodb} from 'react-icons/si';
 import { DiGit, DiGithubBadge, DiNodejsSmall, DiReact, DiCss3, DiSass, DiAptana, DiDotnet } from 'react-icons/di';
 import { VscRegex } from 'react-icons/vsc';
 import { IoLogoPwa } from 'react-icons/io5';
@@ -163,6 +163,10 @@ export default function Home({ theme }) {
           <li>
             <DiNodejsSmall />
             <p>NodeJS</p>
+          </li>
+          <li>
+            <SiMongodb />
+            <p>MongoDB</p>
           </li>
           <li>
             <DiAptana />
