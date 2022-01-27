@@ -206,7 +206,7 @@ export default function Home({ theme }) {
         </div>
         <div>
           <h3>Email Me:</h3>
-          <h3><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZWPbzkpwthvsgBNMFzGkZMjdrcbJVHZPzKCjdvHgmLClMTpkjnScRtpgSJlnfjDzhCZVq" target="_blank">ahmousavigh01@gmail.com</a></h3>
+          <h3><a href="mailto:jimmymalark@gmail.com" target="_blank">jimmymalark@gmail.com</a></h3>
         </div>
       </footer>
     </div>
