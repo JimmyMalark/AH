@@ -1,4 +1,4 @@
-import { SiVisualstudiocode, SiJavascript, SiNextDotJs, SiTailwindcss, SiTypescript, SiVueDotJs, SiVuetify, SiInstagram, SiNuxtDotJs, SiAngular, SiMongodb, SiElectron} from 'react-icons/si';
+import { SiVisualstudiocode, SiJavascript, SiNextDotJs, SiTailwindcss, SiTypescript, SiVueDotJs, SiVuetify, SiInstagram, SiNuxtDotJs, SiAngular, SiMongodb, SiElectron, SiDocker, SiLinux} from 'react-icons/si';
 import { DiGit, DiGithubBadge, DiNodejsSmall, DiReact, DiCss3, DiSass, DiAptana, DiDotnet } from 'react-icons/di';
 import { VscRegex } from 'react-icons/vsc';
 import { IoLogoPwa } from 'react-icons/io5';
@@ -103,6 +103,14 @@ export default function Home({ theme }) {
             <p>GitHub</p>
           </li>
           <li>
+            <SiDocker />
+            <p>Docker</p>
+          </li>
+          <li>
+            <SiLinux />
+            <p>Linux</p>
+          </li>
+          <li>
             <DiNodejsSmall />
             <p>NodeJS</p>
           </li>
@@ -187,10 +195,10 @@ export default function Home({ theme }) {
             <VscRegex />
             <p>RegEx</p>
           </li>
-          <li>
+          {/* <li>
             <SiAngular />
             <p>Angular</p>
-          </li>
+          </li> */}
           <li>
             <SiElectron />
             <p>Electron</p>
